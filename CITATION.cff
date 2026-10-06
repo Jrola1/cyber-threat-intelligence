@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Cyber Threat Intelligence"
+type: dataset
+authors:
+  - family-names: "Jimoh"
+    given-names: "Muheez"
+repository-code: "https://github.com/Jrola1/cyber-threat-intelligence"
+license: "CC-BY-NC-4.0"
