@@ -510,4 +510,4 @@ Primary technical source for the initial May–June zero-day exploitation period
 
 ## Publication Note
 
-This assessment represents the analyst's judgement based on publicly available information as of the information cut-off date. Confidence levels may change as additional evidence becomes available. Material future changes should be versioned and documented rather than silently replacing prior analytical judgements.
+This assessment represents my analytical judgement based on publicly available information as of the information cut-off date. Confidence levels may change as additional evidence becomes available. Material future changes should be versioned and documented rather than silently replacing prior analytical judgements.
