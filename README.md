@@ -14,7 +14,7 @@ This repository also documents my continued development across cyber threat inte
 
 The analytical process used here is **analyst-led and AI-assisted**.
 
-I define the intelligence requirement, research the available evidence, develop hypotheses and make the final analytical judgements. AI may be used to accelerate collection and synthesis, identify additional avenues of investigation, challenge assumptions, generate alternative explanations, and assist with structuring draft material.
+I define the intelligence requirement, research the available evidence and make the final analytical judgements. AI may support research, source discovery, synthesis, analytical challenge, consideration of alternative explanations and drafting.
 
 AI output is not treated as an authoritative source. Material factual claims are validated against underlying sources before publication. Reports distinguish between:
 
@@ -23,17 +23,9 @@ AI output is not treated as an authoritative source. Material factual claims are
 - **Hypotheses** — plausible explanations that remain unconfirmed.
 - **Intelligence gaps** — information that is unknown and may materially affect the assessment.
 
-Alternative explanations, limitations and confidence levels are included where they materially affect a judgement. Final judgements, lessons and recommendations remain the responsibility of the analyst.
+Material judgements are tested against available evidence and credible alternatives, with confidence expressed where uncertainty materially affects the assessment. Final conclusions, lessons and recommendations remain the responsibility of the analyst.
 
-For the detailed methodology, see [`methodology/analytical-methodology.md`](methodology/analytical-methodology.md) and [`methodology/confidence-language.md`](methodology/confidence-language.md).
-
-## Publication Workflow
-
-Reports follow a deliberate publication gate:
-
-**Research → Analysis → Draft → Source Verification → Analytical Challenge → Final Analyst Review → Explicit Sign-off → Publish**
-
-No assessment is considered published until it has passed final analyst review and explicit sign-off. Material new evidence after publication is handled transparently through versioned updates rather than silently rewriting earlier judgements.
+For the public analytical standard, see [methodology/analytical-methodology.md](methodology/analytical-methodology.md) and [methodology/confidence-language.md](methodology/confidence-language.md).
 
 ## Published Intelligence
 
@@ -57,7 +49,6 @@ The goal is to move beyond describing threat activity toward useful, defensible 
 
 ## Repository Structure
 
-```text
 cyber-threat-intelligence/
 ├── README.md
 ├── methodology/
@@ -69,6 +60,5 @@ cyber-threat-intelligence/
 │       └── README.md
 └── sources/
     └── README.md
-```
 
-Individual published assessments receive their own folder under `reports/`, containing a web-readable report and, where useful, supporting material or a formal PDF.
+Individual published assessments receive their own folder under reports/, containing a web-readable report and, where useful, supporting material or a formal PDF.
