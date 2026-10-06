@@ -39,13 +39,13 @@ See [confidence-language.md](confidence-language.md) for the confidence terminol
 
 Analysis should explain what adversary activity means for defenders. Lessons and recommendations are derived from the evidence and assessment and may inform areas such as detection engineering, threat hunting, vulnerability management, security architecture, identity, cloud security, incident response and control assurance.
 
-## Analyst-Led, AI-Assisted
+## Human-Led, AI-Assisted
 
-The analytical process is **analyst-led and AI-assisted**.
+The analytical process is **human-led and AI-assisted**.
 
 AI may support research, source discovery, synthesis, analytical challenge, consideration of alternative explanations and drafting. AI output is not treated as an authoritative source.
 
-The analyst remains responsible for defining the intelligence requirement, verifying material claims, evaluating uncertainty, making the final analytical judgements and determining the conclusions and recommendations presented in each assessment.
+I remain responsible for defining the intelligence requirement, verifying material claims, evaluating uncertainty, and determining the final analytical judgements, conclusions and recommendations presented in each assessment.
 
 Reports undergo source verification and analytical review before publication.
 
