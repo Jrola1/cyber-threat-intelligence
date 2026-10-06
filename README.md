@@ -39,9 +39,7 @@ No assessment is considered published until it has passed final analyst review a
 
 | ID | Report | Intelligence Requirement | Published |
 |---|---|---|---|
-| — | No reports published yet | — | — |
-
-The first assessment, **CTI-001**, is currently in analyst review and will only be added here after sign-off.
+| **CTI-001** | [UNC6240 / ShinyHunters Exploitation of Oracle PeopleSoft](reports/CTI-001-UNC6240-PeopleSoft/README.md) | What does the UNC6240 PeopleSoft campaign and FBI compromise demonstrate about internet-accessible enterprise applications, compensating controls and application trust? | 6 Oct 2026 |
 
 ## Scope & Handling
 
@@ -66,9 +64,11 @@ cyber-threat-intelligence/
 │   ├── analytical-methodology.md
 │   └── confidence-language.md
 ├── reports/
-│   └── README.md
+│   ├── README.md
+│   └── CTI-001-UNC6240-PeopleSoft/
+│       └── README.md
 └── sources/
     └── README.md
 ```
 
-Individual published assessments will receive their own folder under `reports/`, containing a web-readable report and, where useful, supporting material or a formal PDF.
+Individual published assessments receive their own folder under `reports/`, containing a web-readable report and, where useful, supporting material or a formal PDF.
