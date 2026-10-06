@@ -4,7 +4,7 @@ Independent cyber threat intelligence assessments, case studies and defensive an
 
 ## Purpose
 
-This repository contains analyst-produced Cyber Threat Intelligence (CTI) reports and case studies. Its purpose is not simply to summarise incidents or reproduce existing threat research. Each assessment begins with an intelligence requirement and aims to turn available information into analysis that supports better security decisions.
+This repository contains independently produced Cyber Threat Intelligence (CTI) reports and case studies. Its purpose is not simply to summarise incidents or reproduce existing threat research. Each assessment begins with an intelligence requirement and aims to turn available information into analysis that supports better security decisions.
 
 The work explores adversary behaviour and motivation, attack paths, vulnerabilities, control assumptions and failures, detection opportunities, and wider defensive implications. Particular emphasis is placed on understanding **why an intrusion was possible**, **which assumptions may have failed**, and **what defenders should do differently as a result**.
 
@@ -12,7 +12,7 @@ This repository also documents my continued development across cyber threat inte
 
 ## Analytical Approach
 
-The analytical process used here is **analyst-led and AI-assisted**.
+The analytical process used here is **human-led and AI-assisted**.
 
 I define the intelligence requirement, research the available evidence and make the final analytical judgements. AI may support research, source discovery, synthesis, analytical challenge, consideration of alternative explanations and drafting.
 
@@ -23,7 +23,7 @@ AI output is not treated as an authoritative source. Material factual claims are
 - **Hypotheses** — plausible explanations that remain unconfirmed.
 - **Intelligence gaps** — information that is unknown and may materially affect the assessment.
 
-Material judgements are tested against available evidence and credible alternatives, with confidence expressed where uncertainty materially affects the assessment. Final conclusions, lessons and recommendations remain the responsibility of the analyst.
+Material judgements are tested against available evidence and credible alternatives, with confidence expressed where uncertainty materially affects the assessment. I remain responsible for the final conclusions, lessons and recommendations presented in each assessment.
 
 For the public analytical standard, see [methodology/analytical-methodology.md](methodology/analytical-methodology.md) and [methodology/confidence-language.md](methodology/confidence-language.md).
 
