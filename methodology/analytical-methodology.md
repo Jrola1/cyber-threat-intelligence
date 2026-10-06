@@ -2,90 +2,55 @@
 
 ## Purpose
 
-This document describes the analytical standard used for intelligence assessments published in this repository. The objective is to produce decision-support intelligence rather than collections of threat reporting.
+This document describes the analytical standard applied to intelligence assessments published in this repository. The objective is to produce decision-support intelligence rather than collections of threat reporting.
 
-A report should answer a defined intelligence question and make clear what is known, what is assessed, what remains hypothetical, and what information could change the assessment.
+Each assessment begins with a defined intelligence requirement and aims to make clear what is known, what is assessed, what remains uncertain, and why the resulting judgement matters to defenders.
 
-## Intelligence-Led Process
+## Analytical Standard
 
-### 1. Define the Intelligence Requirement
+### Intelligence Requirements
 
-Each assessment begins with a question. The requirement defines the problem being investigated, the intended decision-maker or defensive audience, and the decision the intelligence should help inform.
+Assessments are driven by a defined intelligence question. The requirement establishes the problem being investigated and keeps collection and analysis focused on information that can support a security decision.
 
-### 2. Collect and Evaluate Evidence
+### Evidence and Sourcing
 
-Collection prioritises primary and authoritative sources where available, including vendor research, vulnerability advisories, government reporting and direct technical evidence. Secondary reporting may provide additional context but should not silently replace the underlying source.
+Collection prioritises primary and authoritative sources where available, including vendor research, vulnerability advisories, government reporting and direct technical evidence. Secondary reporting may provide additional context.
 
-Material claims should remain traceable to their source.
+Material factual claims are validated against underlying sources and remain traceable through citations.
 
-### 3. Separate Evidence from Judgement
+### Evidence, Assessment and Uncertainty
 
-Reports deliberately distinguish four classes of information:
+Published reports distinguish between:
 
-- **Established / reported fact:** directly supported by available source material.
-- **Analytical assessment:** a judgement derived from evidence and technical reasoning.
-- **Hypothesis:** a plausible but unconfirmed explanation requiring additional evidence.
-- **Intelligence gap:** information that is currently unavailable and could affect the assessment.
+- **Established / reported facts** — information supported by available source material.
+- **Analytical assessments** — judgements derived from evidence and technical reasoning.
+- **Hypotheses** — plausible but unconfirmed explanations.
+- **Intelligence gaps** — information that remains unknown and could materially affect an assessment.
 
-The existence of a plausible technical path does not establish that the path occurred in the incident being assessed.
+A technically plausible path is not treated as evidence that the path occurred in the incident being assessed.
 
-### 4. Develop and Challenge Hypotheses
+### Analytical Challenge
 
-Hypotheses are used to explore how or why observed activity may have occurred. A useful hypothesis records:
+Material judgements are tested against available evidence, underlying assumptions and credible alternative explanations. Confidence is assigned according to the quality, consistency and completeness of supporting information.
 
-- the hypothesis itself;
-- supporting evidence and technical basis;
-- assumptions required for it to be true;
-- credible alternative explanations;
-- current confidence;
-- relevant intelligence gaps; and
-- evidence or collection that could confirm, weaken or reject it.
+See [confidence-language.md](confidence-language.md) for the confidence terminology used in this repository.
 
-A recurring challenge question is:
+### Defensive Relevance
 
-> **What would have to be true for this conclusion or control assumption not to hold?**
+Analysis should explain what adversary activity means for defenders. Lessons and recommendations are derived from the evidence and assessment and may inform areas such as detection engineering, threat hunting, vulnerability management, security architecture, identity, cloud security, incident response and control assurance.
 
-This is intended to expose hidden dependencies and reduce premature closure.
+## Analyst-Led, AI-Assisted
 
-### 5. Assess Confidence
+The analytical process is **analyst-led and AI-assisted**.
 
-Confidence reflects the quality, consistency and completeness of the evidence supporting a judgement. It is not a measure of how strongly the analyst personally believes a conclusion.
+AI may support research, source discovery, synthesis, analytical challenge, consideration of alternative explanations and drafting. AI output is not treated as an authoritative source.
 
-See [`confidence-language.md`](confidence-language.md) for the repository standard.
+The analyst remains responsible for defining the intelligence requirement, verifying material claims, evaluating uncertainty, making the final analytical judgements and determining the conclusions and recommendations presented in each assessment.
 
-### 6. Derive Defensive Implications
-
-Analysis should connect adversary behaviour to defensive decisions. Depending on the intelligence requirement, implications may relate to vulnerability management, threat hunting, detection engineering, security architecture, identity, cloud security, incident response or control assurance.
-
-Recommendations should follow from the evidence and assessment rather than being generic security guidance appended to an incident summary.
-
-## Analyst-Led, AI-Assisted Research
-
-AI may be used as an analytical aid to:
-
-- accelerate research and synthesis;
-- identify potentially relevant sources or avenues of investigation;
-- challenge assumptions;
-- propose alternative hypotheses;
-- organise complex information; and
-- assist with drafting and presentation.
-
-AI is not treated as an authoritative source and does not own the analytical judgement. Material factual claims are checked against underlying sources before publication. The analyst remains responsible for the intelligence requirement, source verification, hypothesis formation, confidence assessment, final judgements, recommendations and publication decision.
-
-A practical quality standard is:
-
-> **If a judgement cannot be independently explained and defended by the analyst, it should not be presented as the analyst's judgement.**
-
-## Publication & Review
-
-The standard workflow is:
-
-**Research → Analysis → Draft → Source Verification → Analytical Challenge → Final Analyst Review → Explicit Sign-off → Publish**
-
-The final review is a mandatory publication gate. Draft reports are not uploaded to the public repository as published intelligence before explicit analyst sign-off.
-
-Published assessments are point-in-time judgements. When material new evidence changes an assessment, updates should identify what changed and why. Earlier analytical judgements should not be silently rewritten.
+Reports undergo source verification and analytical review before publication.
 
 ## Information Handling
 
-Published material is limited to publicly available information and independent analysis. Non-public employer, client, customer or operational information must not be used as evidence or included in the repository. Professional experience may inform analytical questions and reasoning techniques without disclosing or relying upon protected information.
+Published material is limited to publicly available information and independent analysis. Non-public employer, client, customer or operational information is not used as evidence or included in this repository.
+
+Published assessments represent point-in-time judgements based on the information available at the stated information cut-off. Material changes are documented through versioned updates rather than silently rewriting earlier assessments.
