@@ -1,0 +1,33 @@
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Editor / local workspace metadata
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Obsidian working-vault metadata
+.obsidian/
+.trash/
+
+# Local research and drafts must not be published
+private/
+working-notes/
+drafts/
+*.bak
+
+# Environment and secret files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python / tooling artefacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
